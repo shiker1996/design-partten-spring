@@ -1,0 +1,9 @@
+生成者模式
+该项目测试需要在run configuration里面的program arguments里
+输入“plain”或“html”参数
+将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示。建
+造者模式是一种对象创建型模式。简单的应用就是根据相同的内容生成不同的文本。
+builder（建造者）：定义用于生成实例的入口
+ConcreteBuilder（具体的建造者）：负责实现builder接口的类
+director（监工）：负责使用builder角色的接口来创建实例
+优点：具有可替换性
